@@ -15,29 +15,29 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/bin/fmconfig:system/bin/fmconfig
 
 # GPS
-PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH_GPS)/bin/irsc_util:system/bin/irsc_util \
-	$(LOCAL_PATH_GPS)/bin/loc_launcher:system/bin/loc_launcher \
-	$(LOCAL_PATH_GPS)/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
-	$(LOCAL_PATH_GPS)/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
-	$(LOCAL_PATH_GPS)/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
-	$(LOCAL_PATH_GPS)/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
-	$(LOCAL_PATH_GPS)/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
-	$(LOCAL_PATH_GPS)/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
-	$(LOCAL_PATH_GPS)/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
-	$(LOCAL_PATH_GPS)/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
-	$(LOCAL_PATH_GPS)/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
-	$(LOCAL_PATH_GPS)/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
-	$(LOCAL_PATH_GPS)/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
-	$(LOCAL_PATH_GPS)/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
-	$(LOCAL_PATH_GPS)/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
-	$(LOCAL_PATH_GPS)/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
-	$(LOCAL_PATH_GPS)/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
-	$(LOCAL_PATH_GPS)/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-	$(LOCAL_PATH_GPS)/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
-	$(LOCAL_PATH_GPS)/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
-	$(LOCAL_PATH_GPS)/vendor/lib/libdatactrl.so:system/vendor/lib/libdatactrl.so \
-	$(LOCAL_PATH_GPS)/vendor/lib/libcsm_data.so:system/vendor/lib/libcsm_data.so
+#PRODUCT_COPY_FILES += \
+#	$(LOCAL_PATH_GPS)/bin/irsc_util:system/bin/irsc_util \
+#	$(LOCAL_PATH_GPS)/bin/loc_launcher:system/bin/loc_launcher \
+#	$(LOCAL_PATH_GPS)/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
+#	$(LOCAL_PATH_GPS)/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+#	$(LOCAL_PATH_GPS)/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
+#	$(LOCAL_PATH_GPS)/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
+#	$(LOCAL_PATH_GPS)/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
+#	$(LOCAL_PATH_GPS)/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
+#	$(LOCAL_PATH_GPS)/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
+#	$(LOCAL_PATH_GPS)/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
+#	$(LOCAL_PATH_GPS)/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
+#	$(LOCAL_PATH_GPS)/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
+#	$(LOCAL_PATH_GPS)/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
+#	$(LOCAL_PATH_GPS)/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
+#	$(LOCAL_PATH_GPS)/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
+#	$(LOCAL_PATH_GPS)/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
+#	$(LOCAL_PATH_GPS)/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
+#	$(LOCAL_PATH_GPS)/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
+#	$(LOCAL_PATH_GPS)/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
+#	$(LOCAL_PATH_GPS)/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
+#	$(LOCAL_PATH_GPS)/vendor/lib/libdatactrl.so:system/vendor/lib/libdatactrl.so \
+#	$(LOCAL_PATH_GPS)/vendor/lib/libcsm_data.so:system/vendor/lib/libcsm_data.so
 
 # Graphics
 PRODUCT_COPY_FILES += \
@@ -172,23 +172,23 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH_APTX)/vendor/lib/libaptXScheduler.so:system/vendor/lib/libaptXScheduler.so
 	
 # DRM
-PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/bin/qseecomd:system/bin/qseecomd \
-	$(LOCAL_PATH)/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
-	$(LOCAL_PATH)/lib/libwvm.so:system/lib/libwvm.so \
-	$(LOCAL_PATH)/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
-	$(LOCAL_PATH)/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
-	$(LOCAL_PATH)/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
-	$(LOCAL_PATH)/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
-	$(LOCAL_PATH)/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
-	$(LOCAL_PATH)/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
-	$(LOCAL_PATH)/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
-	$(LOCAL_PATH)/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
-	$(LOCAL_PATH)/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-	$(LOCAL_PATH)/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
-	$(LOCAL_PATH)/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
-	$(LOCAL_PATH)/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
-	$(LOCAL_PATH)/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so
+#PRODUCT_COPY_FILES += \
+#	$(LOCAL_PATH)/bin/qseecomd:system/bin/qseecomd \
+#	$(LOCAL_PATH)/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
+#	$(LOCAL_PATH)/lib/libwvm.so:system/lib/libwvm.so \
+#	$(LOCAL_PATH)/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
+#	$(LOCAL_PATH)/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
+#	$(LOCAL_PATH)/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
+#	$(LOCAL_PATH)/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+#	$(LOCAL_PATH)/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
+#	$(LOCAL_PATH)/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
+#	$(LOCAL_PATH)/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+#	$(LOCAL_PATH)/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+#	$(LOCAL_PATH)/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+#	$(LOCAL_PATH)/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
+#	$(LOCAL_PATH)/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
+#	$(LOCAL_PATH)/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
+#	$(LOCAL_PATH)/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so
 	
 # Radio
 PRODUCT_COPY_FILES += \
